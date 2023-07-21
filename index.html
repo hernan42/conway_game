@@ -2,12 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Juego de la vida (Conway)</title>
+        <title>Juego de la vida de Conway </title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
 <body>
     <div id="contenedor-tablero">
+    </div>
+    <div class="contenedor-botones">
+
+        <div class="btn" id="btn1" onclick="intercambiarReproduccion()">
+            <i class="fas fa-play" title="Iniciar cambio de estados"></i>
+        </div>
+
+        <div class="btn" id="btn2">
+            <i class="fas fa-step-forward" onclick="siguienteEstado()" title="Siguiente estado"></i>
+        </div>
+
+        <div class="btn" id="btn3" onclick="limpiar()" title="Limpiar">
+            <i class="fas fa-eraser"></i>
+        </div>
     </div>
     <!-- JS (Lógica) -->
     <script src="script.js"></script>
