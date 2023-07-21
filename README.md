@@ -1,1 +1,1 @@
-# conway_game
+# Juego de la vida de Conway
