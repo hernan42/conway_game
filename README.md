@@ -1,5 +1,5 @@
 <p align="center">
-    Juego de la vida de Conway con HTML, CSS y JAVASCRIPT
+    <h1>Juego de la vida de Conway con HTML, CSS y JAVASCRIPT</h1>
 </p>
 
 ## Acerca del proyecto
